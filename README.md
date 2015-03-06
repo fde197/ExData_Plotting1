@@ -1,5 +1,5 @@
 ## Instruction
-The data are in the same dir than the code
+The data must be in the same dir than the code
 
 To run the code do : <br>
 source("plot1.R") <br>
