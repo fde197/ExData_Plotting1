@@ -1,9 +1,9 @@
 ## Instruction
 The data are in the same dir than the code
 
-To run the code do :
-source("plot1.R")
-plot1()
+To run the code do : <br>
+source("plot1.R") <br>
+plot1() <br>
 
 and the same for plot2, plot3 and plot4
 
