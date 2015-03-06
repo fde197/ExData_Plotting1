@@ -1,10 +1,10 @@
 plot1<- function() {
    # read the file
-   print("Read table...")
+   print("Reading table...")
    data <- read.table("household_power_consumption.txt", sep = ";", header = TRUE, na.strings = "?")
 
    # extract element to analyse
-   print("Extract the 2 days...")
+   print("Extracting the 2 days...")
    subData <- subset(data,(as.Date(data$Date,format='%d/%m/%Y')==as.Date('2007-02-01',format='%Y-%m-%d')) | (as.Date(data$Date,format='%d/%m/%Y')==as.Date('2007-02-02',format='%Y-%m-%d')))
 
    # create a png 480 x 480
